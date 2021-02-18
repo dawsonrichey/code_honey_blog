@@ -27,63 +27,8 @@
         <!-- MAIN CONTAINER -->
         <main id="eskimo-main-container">
             <div class="container">
-                <!-- SIDEBAR -->
-                <div id="eskimo-sidebar">
-                    <div id="eskimo-sidebar-wrapper" class="d-flex align-items-start flex-column h-100 w-100">
-                        <!-- LOGO -->
-                        <div id="eskimo-logo-cell" class="w-100">
-                            <a class="eskimo-logo-link" href="index.html">
-                                <img src="images/logo.png" class="eskimo-logo" alt="eskimo" />
-                            </a>
-                        </div>
-                        <!-- MENU CONTAINER -->
-                        <div id="eskimo-sidebar-cell" class="w-100">
-                            <!-- MOBILE MENU BUTTON -->
-                            <div id="eskimo-menu-toggle">MENU</div>
-                            <!-- MENU -->
-                            <nav id="eskimo-main-menu" class="menu-main-menu-container">
-                                <ul class="eskimo-menu-ul">
-                                    <li><a href="#">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Demo 1</a></li>
-                                            <li><a href="index2.html">Demo 2</a></li>
-                                            <li><a href="index3.html">Demo 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">About Me</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">Demo 1</a></li>
-                                            <li><a href="about-2.html">Demo 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Full Width</a></li>
-                                            <li><a href="blog-2-column.html">2 Column</a></li>
-                                            <li><a href="blog-3-column.html">3 Column</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="galleries.html">Galleries</a></li>
-                                    <li><a href="other-features.html">Other Features</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- SOCIAL MEDIA ICONS -->
-                        <div id="eskimo-social-cell" class="mt-auto w-100">
-                            <div id="eskimo-social-inner">
-                                <ul class="eskimo-social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Side bar include -->
+            <?php include_once('views/left_navbar.php'); ?>
                 <!-- TOP ICONS -->
                 <ul class="eskimo-top-icons">
                     <li id="eskimo-panel-icon">
@@ -97,7 +42,7 @@
                 <!-- PAGE TITLE -->
                                 <!-- PAGE TITLE -->
                                 <div class="eskimo-page-title">
-                                    <h1><span>Jane Doe</span></h1>
+                                    <h1><span>Dawson Richey</span></h1>
                                     <p class="eskimo-page-subtitle">Photographer and Videographer</p>
                                 </div>
                                 <!-- ABOUT ME -->
@@ -108,7 +53,7 @@
                                         <p>Laboris quo ingeniis, eu dolore iudicem fabulas. Si fugiat anim est officia, aut aliqua incididunt efflorescere te varias de nostrud ab quis si si de dolore quem culpa...</p>
                                     </div>
                                     <div class="col-12 col-lg-4 order-1 order-lg-2 mb-5 mb-lg-0">
-                                        <img src="images/600x600.png" alt="Jane Doe" class="img-fluid mx-auto d-block eskimo-img-shadow" />
+                                        <img src="images/600x600.png" alt="Dawson Richey" class="img-fluid mx-auto d-block eskimo-img-shadow" />
                                     </div>
                                 </div>
                                 <!-- DIVIDER -->
@@ -151,7 +96,7 @@
                                 <!-- DIVIDER -->
                                 <hr />
                 <div class="eskimo-page-title">
-                    <h1><span>John Doe</span></h1>
+                    <h1><span>Dawson Richey</span></h1>
                     <p class="eskimo-page-subtitle">Web Designer &amp; Developer</p>
                 </div>
                 <!-- ABOUT ME -->
@@ -173,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-5 order-1 order-lg-2 mb-5 mb-lg-0">
-                        <img src="images/600x600.png" alt="Jane Doe" class="img-fluid mx-auto d-block eskimo-img-shadow" />
+                        <img src="images/600x600.png" alt="Dawson Richey" class="img-fluid mx-auto d-block eskimo-img-shadow" />
                     </div>
                 </div>
                 <!-- DIVIDER -->
@@ -273,7 +218,7 @@
                 <h2>CONTACT ME</h2>
                 <p>Possumus e aute sed se litteris in aliquip, a tamen quem qui pariatur ex pariatur nam nulla possumus, magna do nostrud non quid qui cernantur eram aliqua e illum labore proident consequat.</p>
                 <!-- CONTACT FORM -->
-                <form id="ajax-form" action="mailer.php" method="post">
+                <form id="ajax-form" action="forms/subcribe.php" method="post">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <p>
@@ -302,33 +247,11 @@
             </div>
         </main>
         <!-- FOOTER -->
-        <footer id="eskimo-footer">
-            <div class="container">
-                <div class="row eskimo-footer-wrapper">
-                    <!-- FOOTER WIDGET 1 -->
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <h5 class="eskimo-title-with-border"><span>About Me</span></h5>
-                        <p>Trusted by thousands of customers, my unique themes and plugins help you make beautiful responsive web sites with ease.</p>
-                        <p><a href="about.html" class="btn btn-default">Read More</a></p>
-                    </div>
-                    <!-- FOOTER WIDGET 2 -->
-                    <div class="col-12 col-lg-6">
-                        <h5 class="eskimo-title-with-border"><span>Newsletter</span></h5>
-                        <form method="post" action="index.html">
-                            <label>Subscribe to our mailing list!</label>
-                            <div class="input-group">
-                                <input type="email" class="form-control" name="EMAIL" placeholder="Your email address" required />
-                                <div class="input-group-append">
-                                    <input type="submit" value="Sign up" class="btn btn-default" />
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+        <?php include_once('views/footer.php'); ?>
                 <!-- CREDITS -->
                 <div class="eskimo-footer-credits">
                     <p>
-                        Made with love by <a href="https://themeforest.net/user/egemenerd" target="_blank">Egemenerd</a>
+                       
                     </p>
                 </div>
             </div>
@@ -347,9 +270,9 @@
                 <!-- AUTHOR BOX -->
                 <div class="eskimo-author-box eskimo-widget">
                     <div class="eskimo-author-img">
-                        <img src="images/300x300.png" alt="JOHN DOE" />
+                        <img src="images/300x300.png" alt="Dawson Richey" />
                     </div>
-                    <h3><span>JOHN DOE</span></h3>
+                    <h3><span>Dawson Richey</span></h3>
                     <p class="eskimo-author-subtitle">WEB DESIGNER &amp; DEVELOPER</p>
                     <p class="eskimo-author-description">I'm a Web Developer and Designer with a strong passion for UX/UI design. I have experience building websites, web applications, and brand assets. Contact me if you have any questions!</p>
                     <div class="eskimo-author-box-btn">
@@ -382,49 +305,11 @@
                         </li>
                     </ul>
                 </div>
-                <!-- CATEGORIES -->
-                <div class="eskimo-categories eskimo-widget">
-                    <h5 class="eskimo-title-with-border"><span>Categories</span></h5>
-                    <ul>
-                        <li>
-                            <a href="category.html" title="The best restaurants, cafes, bars and shops in town.">Food &amp; Drink</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="An up-to-date, personal urban guide.">Lifestyle</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="Latest technology news and updates.">Technology</a> <span class="badge badge-pill badge-default">4</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="Travel advice, information and inspiration.">Travel</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="The latest news about movies and TV shows.">TV &amp; Movies</a> <span class="badge badge-pill badge-default">4</span>
-                        </li>
-                    </ul>
-                </div>
-                <!-- TAGS -->
-                <div class="eskimo-widget">
-                    <h5 class="eskimo-title-with-border"><span>Tags</span></h5>
-                    <div class="eskimo-tag-cloud">
-                        <a href="category.html">aute<span>7</span></a>
-                        <a href="category.html">enim<span>7</span></a>
-                        <a href="category.html">commodo<span>7</span></a>
-                        <a href="category.html">voluptatibus<span>7</span></a>
-                        <a href="category.html">culpa<span>7</span></a>
-                        <a href="category.html">offendit<span>7</span></a>
-                        <a href="category.html">magna<span>7</span></a>
-                        <a href="category.html">quorum<span>7</span></a>
-                        <a href="category.html">mandaremus<span>7</span></a>
-                        <a href="category.html">ingeniis<span>7</span></a>
-                        <a href="category.html">tempor<span>7</span></a>
-                        <a href="category.html">summis<span>7</span></a>
-                        <a href="category.html">consequat<span>6</span></a>
-                        <a href="category.html">iudicem<span>6</span></a>
-                        <a href="category.html">expetendis<span>6</span></a>
-                        <a href="category.html">deserunt<span>6</span></a>
-                    </div>
-                </div>
+              <!-- CATEGORIES INCLUDE -->
+              <?php include_once('views/categories.php'); ?>
+                <!-- TAGS INCLUDE -->
+                <?php include_once('views/tags.php'); ?>
+
             </div>
         </aside>
     </div>

@@ -11,6 +11,7 @@
     <!-- CSS FILES -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -27,7 +28,7 @@
         <main id="eskimo-main-container">
             <div class="container">
             <!-- Side bar include -->
-            <?php include_once('views/left_nav_bar.php'); ?>
+            <?php include_once('views/left_navbar.php'); ?>
                 <!-- TOP ICONS -->
                 <ul class="eskimo-top-icons">
                     <li id="eskimo-panel-icon">
@@ -46,9 +47,9 @@
                         <!-- AUTHOR BOX -->
                         <div class="eskimo-author-box eskimo-add-border eskimo-widget">
                             <div class="eskimo-author-img">
-                                <img src="images/300x300.png" alt="JOHN DOE" />
+                                <img src="images/300x300.png" alt="Dawson Richey" />
                             </div>
-                            <h3><span>JOHN DOE</span></h3>
+                            <h3><span>Dawson Richey</span></h3>
                             <p class="eskimo-author-subtitle">WEB DESIGNER &amp; DEVELOPER</p>
                             <p class="eskimo-author-description">I'm a Web Developer and Designer with a strong passion for UX/UI design. I have experience building websites, web applications, and brand assets. Contact me if you have any questions!</p>
                             <div class="eskimo-author-box-btn">
@@ -288,9 +289,9 @@
                 <!-- AUTHOR BOX -->
                 <div class="eskimo-author-box eskimo-widget">
                     <div class="eskimo-author-img">
-                        <img src="images/300x300.png" alt="JOHN DOE" />
+                        <img src="images/300x300.png" alt="Dawson Richey" />
                     </div>
-                    <h3><span>JOHN DOE</span></h3>
+                    <h3><span>Dawson Richey</span></h3>
                     <p class="eskimo-author-subtitle">WEB DESIGNER &amp; DEVELOPER</p>
                     <p class="eskimo-author-description">I'm a Web Developer and Designer with a strong passion for UX/UI design. I have experience building websites, web applications, and brand assets. Contact me if you have any questions!</p>
                     <div class="eskimo-author-box-btn">
@@ -350,6 +351,7 @@
     <script src="js/salvattore.min.js"></script>
     <script src="js/panel.js"></script>
     <script src="js/reading-position-indicator.js"></script>
+    <script src="js/ajax-contact-form.js"></script>
     <script src="js/custom.js"></script>
 </body>
 

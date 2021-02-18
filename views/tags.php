@@ -1,22 +1,22 @@
-                <!-- TAGS -->
-                <div class="eskimo-widget">
-                    <h5 class="eskimo-title-with-border"><span>Tags</span></h5>
-                    <div class="eskimo-tag-cloud">
-                        <a href="category.html">aute<span>7</span></a>
-                        <a href="category.html">enim<span>7</span></a>
-                        <a href="category.html">commodo<span>7</span></a>
-                        <a href="category.html">voluptatibus<span>7</span></a>
-                        <a href="category.html">culpa<span>7</span></a>
-                        <a href="category.html">offendit<span>7</span></a>
-                        <a href="category.html">magna<span>7</span></a>
-                        <a href="category.html">quorum<span>7</span></a>
-                        <a href="category.html">mandaremus<span>7</span></a>
-                        <a href="category.html">ingeniis<span>7</span></a>
-                        <a href="category.html">tempor<span>7</span></a>
-                        <a href="category.html">summis<span>7</span></a>
-                        <a href="category.html">consequat<span>6</span></a>
-                        <a href="category.html">iudicem<span>6</span></a>
-                        <a href="category.html">expetendis<span>6</span></a>
-                        <a href="category.html">deserunt<span>6</span></a>
-                    </div>
-                </div>
+<!-- TAGS -->
+<div class="eskimo-widget">
+    <h5 class="eskimo-title-with-border"><span>Tags</span></h5>
+    <div class="eskimo-tag-cloud">
+        <a href="category.php">aute<span>7</span></a>
+        <a href="category.php">enim<span>7</span></a>
+        <a href="category.php">commodo<span>7</span></a>
+        <a href="category.php">voluptatibus<span>7</span></a>
+        <a href="category.php">culpa<span>7</span></a>
+        <a href="category.php">offendit<span>7</span></a>
+        <a href="category.php">magna<span>7</span></a>
+        <a href="category.php">quorum<span>7</span></a>
+        <a href="category.php">mandaremus<span>7</span></a>
+        <a href="category.php">ingeniis<span>7</span></a>
+        <a href="category.php">tempor<span>7</span></a>
+        <a href="category.php">summis<span>7</span></a>
+        <a href="category.php">consequat<span>6</span></a>
+        <a href="category.php">iudicem<span>6</span></a>
+        <a href="category.php">expetendis<span>6</span></a>
+        <a href="category.php">deserunt<span>6</span></a>
+    </div>
+</div>
