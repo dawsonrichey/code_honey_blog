@@ -8,6 +8,13 @@ http://honey-test.gearhostpreview.com/
 
 TO DO
 -------
+
+
+
+
+
+
+
 [ ] Link to fontawesome
 [ ] Add analytics tag
 [ ] Create DB
