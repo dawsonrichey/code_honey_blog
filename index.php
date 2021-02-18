@@ -26,63 +26,8 @@
         <!-- MAIN CONTAINER -->
         <main id="eskimo-main-container">
             <div class="container">
-                <!-- SIDEBAR -->
-                <div id="eskimo-sidebar">
-                    <div id="eskimo-sidebar-wrapper" class="d-flex align-items-start flex-column h-100 w-100">
-                        <!-- LOGO -->
-                        <div id="eskimo-logo-cell" class="w-100">
-                            <a class="eskimo-logo-link" href="index.html">
-                                <img src="images/logo.png" class="eskimo-logo" alt="eskimo" />
-                            </a>
-                        </div>
-                        <!-- MENU CONTAINER -->
-                        <div id="eskimo-sidebar-cell" class="w-100">
-                            <!-- MOBILE MENU BUTTON -->
-                            <div id="eskimo-menu-toggle">MENU</div>
-                            <!-- MENU -->
-                            <nav id="eskimo-main-menu" class="menu-main-menu-container">
-                                <ul class="eskimo-menu-ul">
-                                    <li><a href="#">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.html">Demo 1</a></li>
-                                            <li><a href="index2.html">Demo 2</a></li>
-                                            <li><a href="index3.html">Demo 3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">About Me</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">Demo 1</a></li>
-                                            <li><a href="about-2.html">Demo 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Full Width</a></li>
-                                            <li><a href="blog-2-column.html">2 Column</a></li>
-                                            <li><a href="blog-3-column.html">3 Column</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="galleries.html">Galleries</a></li>
-                                    <li><a href="other-features.html">Other Features</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- SOCIAL MEDIA ICONS -->
-                        <div id="eskimo-social-cell" class="mt-auto w-100">
-                            <div id="eskimo-social-inner">
-                                <ul class="eskimo-social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Side bar include -->
+            <?php include_once('views/left_nav_bar.php'); ?>
                 <!-- TOP ICONS -->
                 <ul class="eskimo-top-icons">
                     <li id="eskimo-panel-icon">
@@ -94,129 +39,8 @@
                 </ul>
                 <div class="clearfix"></div>
                 <div class="row">
-                    <!-- BLOG POSTS -->
-                    <div class="col-12 col-lg-7">
-                        <div class="eskimo-masonry-grid">
-                            <div class="eskimo-one-column" data-columns>
-                                <!-- POST 1 -->
-                                <div class="card-masonry">
-                                    <div class="card">
-                                        <a href="single-post.html">
-                                            <img class="card-vertical-img" src="images/900x600.png" alt="Ketchup Flavored Ice Cream!" />   
-                                        </a>
-                                        <div class="card-border">
-                                            <div class="card-body">
-                                                <div class="card-category">
-                                                    <span><a href="category.html">Food &amp; Drink</a></span>
-                                                </div>
-                                                <h3 class="card-title">
-                                                    <a href="single-post.html">Ketchup Flavored Ice Cream!</a>
-                                                </h3>
-                                                <p>Mandaremus illum possumus ullamco e qui de nisi enim anim. Si nulla si nisi, veniam litteris sed excepteur ne ut amet deserunt tempor nam expetendis de enim mandaremus. Ita ea minim esse cillum ut eram arbitror ullamco. Tamen ad expetendis ab ipsum proident...</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <div class="eskimo-author-meta">
-                                                    By <a class="author-meta" href="author.html">Egemenerd</a>
-                                                </div>
-                                                <div class="eskimo-date-meta">
-                                                    <a href="single-post.html">May 28, 2018</a>
-                                                </div>
-                                                <div class="eskimo-reading-meta">3 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- POST 2 -->
-                                <div class="card-masonry">
-                                    <div class="card">
-                                        <a href="single-post.html">
-                                            <img class="card-vertical-img" src="images/900x600.png" alt="Hair You've Always Dreamed Of" />   
-                                        </a>
-                                        <div class="card-border">
-                                            <div class="card-body">
-                                                <div class="card-category">
-                                                    <span><a href="category.html">Lifestyle</a></span>
-                                                </div>
-                                                <h3 class="card-title">
-                                                    <a href="single-post.html">Hair You've Always Dreamed Of</a>
-                                                </h3>
-                                                <p>Ex si esse deserunt, et dolore occaecat, singulis tamen e possumus voluptatibus, varias cernantur si aute quid. Noster vidisse iis exquisitaque, deserunt te irure. Ubi illum nostrud fidelissimae id occaecat duis probant. Occaecat hic quorum aliquip se...</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <div class="eskimo-author-meta">
-                                                    By <a class="author-meta" href="author.html">Egemenerd</a>
-                                                </div>
-                                                <div class="eskimo-date-meta">
-                                                    <a href="single-post.html">May 27, 2018</a>
-                                                </div>
-                                                <div class="eskimo-reading-meta">3 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- POST 3 -->
-                                <div class="card-masonry">
-                                    <div class="card">
-                                        <a href="single-post.html">
-                                            <img class="card-vertical-img" src="images/900x600.png" alt="15 Of The World's Best Carnivals" />   
-                                        </a>
-                                        <div class="card-border">
-                                            <div class="card-body">
-                                                <div class="card-category">
-                                                    <span><a href="category.html">Lifestyle</a>, <a href="category.html">Travel</a></span>
-                                                </div>
-                                                <h3 class="card-title">
-                                                    <a href="single-post.html">15 Of The World's Best Carnivals</a>
-                                                </h3>
-                                                <p>Aliquip e duis. Se labore ullamco excepteur iis ullamco sint duis laboris amet sed ita occaecat de cernantur quo fore coniunctione voluptate enim senserit. Si ut nulla laboris, an eiusmod e incididunt. Non varias enim duis singulis, a quorum cupidatat. Voluptate summis...</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <div class="eskimo-author-meta">
-                                                    By <a class="author-meta" href="author.html">Egemenerd</a>
-                                                </div>
-                                                <div class="eskimo-date-meta">
-                                                    <a href="single-post.html">May 25, 2018</a>
-                                                </div>
-                                                <div class="eskimo-reading-meta">2 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- POST 4 -->
-                                <div class="card-masonry">
-                                    <div class="card">
-                                        <a href="single-post.html">
-                                            <img class="card-vertical-img" src="images/900x600.png" alt="5 Ways to a Healthy Lifestyle" />   
-                                        </a>
-                                        <div class="card-border">
-                                            <div class="card-body">
-                                                <div class="card-category">
-                                                    <span><a href="category.html">Lifestyle</a></span>
-                                                </div>
-                                                <h3 class="card-title">
-                                                    <a href="single-post.html">5 Ways to a Healthy Lifestyle</a>
-                                                </h3>
-                                                <p>Mandaremus veniam ab cupidatat exquisitaque, e quae laboris domesticarum, non sint mentitum fabulas de anim proident transferrem, ita aliqua imitarentur in in labore illum eram offendit, nisi fidelissimae possumus noster ullamco se eiusmod multos ex...</p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <div class="eskimo-author-meta">
-                                                    By <a class="author-meta" href="author.html">Egemenerd</a>
-                                                </div>
-                                                <div class="eskimo-date-meta">
-                                                    <a href="single-post.html">May 25, 2018</a>
-                                                </div>
-                                                <div class="eskimo-reading-meta">3 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- VIEW ALL BUTTON -->
-                        <div class="eskimo-view-more mb-5">
-                            <a class="btn btn-default" href="blog.html">VIEW ALL</a>
-                        </div>
-                    </div>
+                <!-- BLOG POSTS INCLUDE -->
+                <?php include_once('views/blog_posts.php'); ?>
                     <!-- SIDEBAR -->
                     <div class="col-12 col-lg-5">
                         <!-- AUTHOR BOX -->
@@ -448,38 +272,8 @@
                 </div>
             </div>
         </main>
-        <!-- FOOTER -->
-        <footer id="eskimo-footer">
-            <div class="container">
-                <div class="row eskimo-footer-wrapper">
-                    <!-- FOOTER WIDGET 1 -->
-                    <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                        <h5 class="eskimo-title-with-border"><span>About Me</span></h5>
-                        <p>Trusted by thousands of customers, my unique themes and plugins help you make beautiful responsive web sites with ease.</p>
-                        <p><a href="about.html" class="btn btn-default">Read More</a></p>
-                    </div>
-                    <!-- FOOTER WIDGET 2 -->
-                    <div class="col-12 col-lg-6">
-                        <h5 class="eskimo-title-with-border"><span>Newsletter</span></h5>
-                        <form method="post" action="index.html">
-                            <label>Subscribe to our mailing list!</label>
-                            <div class="input-group">
-                                <input type="email" class="form-control" name="EMAIL" placeholder="Your email address" required />
-                                <div class="input-group-append">
-                                    <input type="submit" value="Sign up" class="btn btn-default" />
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- CREDITS -->
-                <div class="eskimo-footer-credits">
-                    <p>
-                        Made with love by <a href="https://themeforest.net/user/egemenerd" target="_blank">Egemenerd</a>
-                    </p>
-                </div>
-            </div>
-        </footer>
+        <!-- FOOTER INCLUDE -->
+        <?php include_once('views/footer.php'); ?>
     </div>
     <!-- GO TO TOP BUTTON -->
     <a id="eskimo-gototop" href="#"><i class="fa fa-chevron-up"></i></a>
@@ -529,49 +323,10 @@
                         </li>
                     </ul>
                 </div>
-                <!-- CATEGORIES -->
-                <div class="eskimo-categories eskimo-widget">
-                    <h5 class="eskimo-title-with-border"><span>Categories</span></h5>
-                    <ul>
-                        <li>
-                            <a href="category.html" title="The best restaurants, cafes, bars and shops in town.">Food &amp; Drink</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="An up-to-date, personal urban guide.">Lifestyle</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="Latest technology news and updates.">Technology</a> <span class="badge badge-pill badge-default">4</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="Travel advice, information and inspiration.">Travel</a> <span class="badge badge-pill badge-default">5</span>
-                        </li>
-                        <li>
-                            <a href="category.html" title="The latest news about movies and TV shows.">TV &amp; Movies</a> <span class="badge badge-pill badge-default">4</span>
-                        </li>
-                    </ul>
-                </div>
-                <!-- TAGS -->
-                <div class="eskimo-widget">
-                    <h5 class="eskimo-title-with-border"><span>Tags</span></h5>
-                    <div class="eskimo-tag-cloud">
-                        <a href="category.html">aute<span>7</span></a>
-                        <a href="category.html">enim<span>7</span></a>
-                        <a href="category.html">commodo<span>7</span></a>
-                        <a href="category.html">voluptatibus<span>7</span></a>
-                        <a href="category.html">culpa<span>7</span></a>
-                        <a href="category.html">offendit<span>7</span></a>
-                        <a href="category.html">magna<span>7</span></a>
-                        <a href="category.html">quorum<span>7</span></a>
-                        <a href="category.html">mandaremus<span>7</span></a>
-                        <a href="category.html">ingeniis<span>7</span></a>
-                        <a href="category.html">tempor<span>7</span></a>
-                        <a href="category.html">summis<span>7</span></a>
-                        <a href="category.html">consequat<span>6</span></a>
-                        <a href="category.html">iudicem<span>6</span></a>
-                        <a href="category.html">expetendis<span>6</span></a>
-                        <a href="category.html">deserunt<span>6</span></a>
-                    </div>
-                </div>
+                <!-- CATEGORIES INCLUDE -->
+                <?php include_once('views/categories.php'); ?>
+                <!-- TAGS INCLUDE -->
+                <?php include_once('views/tags.php'); ?>
             </div>
         </aside>
     </div>
